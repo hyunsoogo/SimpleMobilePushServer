@@ -1,8 +1,6 @@
 from urllib.request import urlopen
 from urllib.request import Request
-from urllib.parse   import quote
-import json, time, threading, random, ssl, socket, struct, binascii
-from datetime import date, timedelta
+import json, time, random, ssl, socket, struct
 
 # For Android only...
 URL_GCM = "https://android.googleapis.com/gcm/send"
